@@ -1,12 +1,6 @@
 const Deque = require('../lib/Deque')
 const DequeIterator = require('../lib/DequeIterator')
 
-function print (deque) {
-  while (deque.length) {
-    console.log(deque.shift() + '\t')
-  }
-}
-
 describe('module', () => {
   describe('Deque', () => {
     it('Deque() should success', () => {
