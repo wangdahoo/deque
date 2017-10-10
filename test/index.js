@@ -1,5 +1,4 @@
-const Deque = require('../lib/Deque')
-const DequeIterator = require('../lib/DequeIterator')
+const Deque = require('../')
 
 describe('module', () => {
   describe('Deque', () => {
@@ -9,7 +8,7 @@ describe('module', () => {
       deque.push('hello')
       deque.push(false)
 
-      const dequeIt = new DequeIterator(deque)
+      const dequeIt = deque.iterator()
 
       let next = { done: false }
       while (!next.done) {
