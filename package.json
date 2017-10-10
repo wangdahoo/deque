@@ -1,7 +1,7 @@
 {
-  "name": "deque",
-  "version": "1.0.0",
-  "description": "yet another double-ended queue",
+  "name": "simple-deque",
+  "version": "0.1.0",
+  "description": "yet another double-ended queue.",
   "main": "index.js",
   "scripts": {
     "test": "mocha"
@@ -21,7 +21,6 @@
   "homepage": "https://github.com/wangdahoo/deque#readme",
   "dependencies": {},
   "devDependencies": {
-    "mocha": "^4.0.1",
-    "should": "^13.1.1"
+    "mocha": "^4.0.1"
   }
 }

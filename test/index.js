@@ -3,10 +3,7 @@ const Deque = require('../')
 describe('module', () => {
   describe('Deque', () => {
     it('Deque() should success', () => {
-      const deque = new Deque()
-      deque.push(3.14)
-      deque.push('hello')
-      deque.push(false)
+      const deque = new Deque([3.14, 'hello', false])
 
       const dequeIt = deque.iterator()
 
