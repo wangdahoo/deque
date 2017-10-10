@@ -1,2 +1,8 @@
 const Deque = require('./lib/Deque')
-module.exports = Deque
+const DequeNode = require('./lib/DequeNode')
+const DequeIterator = require('./lib/DequeIterator')
+module.exports = {
+  Deque,
+  DequeNode,
+  DequeIterator
+}
