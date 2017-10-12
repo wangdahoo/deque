@@ -27,3 +27,5 @@ while (!next.done) {
 - `shift()` - delete from the head
 - `push(obj)` - insert from the tail
 - `pop()` - delete from the tail 
+- `values()` - return all data values in array
+- `nodes()` - return all nodes in array 
