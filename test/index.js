@@ -24,3 +24,23 @@ describe('module', () => {
     })
   })
 })
+
+describe('module', () => {
+  describe('Deque operations should success', () => {
+    it('Deque() should success', () => {
+      let deque = new Deque()
+      let e
+      console.log(deque.nodes(), deque.head, deque.tail)
+      
+      deque.push(1)
+      console.log(deque.nodes(), deque.head, deque.tail)
+      e = deque.shift()
+      console.log(deque.nodes(), deque.head, deque.tail)
+
+      deque.unshift(2)
+      console.log(deque.nodes(), deque.head, deque.tail)
+      e = deque.pop()
+      console.log(deque.nodes(), deque.head, deque.tail)
+    })
+  })
+})
