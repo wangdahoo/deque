@@ -5,7 +5,7 @@
 ### Install
 
 ```bash
-$ yarn simple-deque
+$ yarn add simple-deque
 ```
 
 ### How to Use
